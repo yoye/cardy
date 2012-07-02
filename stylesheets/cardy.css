@@ -1,0 +1,54 @@
+.cardy {
+  display: inline-block;
+  width: 20px;
+  text-align: center;
+  font-size: 14px;
+  padding: 1px;
+  border: 1px solid #ccc;
+  text-shadow: 0 1px 1px #CCC;
+  background-image: -ms-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffffff), to(#e6e6e6));
+  background-image: -webkit-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -o-linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: linear-gradient(top, #ffffff, #e6e6e6);
+  background-image: -moz-linear-gradient(top, #ffffff, #e6e6e6);
+  background-repeat: repeat-x;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.cardy.spade:after {
+  content: "\2660";
+}
+
+.cardy.club:after {
+  content: "\2663";
+}
+
+.cardy.diamond:after {
+  content: "\2666";
+}
+
+.cardy.heart:after {
+  content: "\2665";
+}
+
+.cardy.heart, .cardy.diamond {
+  color: #EF2222;
+}
+
+.cardy.spade, .cardy.club {
+  color: #303030;
+}
+
+.cardy.club.four-color {
+  color: #05B955;
+}
+
+.cardy.diamond.four-color {
+  color: #285FDD;
+}
