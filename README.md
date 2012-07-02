@@ -28,7 +28,7 @@ You can also display your card with javascript. All you need is to type a simple
 
 You need jQuery loaded before cardy.
 ```html
-<!-- Display Ace of space and Ace of heart -->
+<!-- Display Ace of spade and Ace of heart -->
 [As] [Ah]
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>   
 <script src="js/cardy.js"></script>   
