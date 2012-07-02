@@ -51,7 +51,10 @@
 <p>How to display an ace of spades ?</p>
 
 <div class="highlight">
-<pre><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy club"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
+<pre>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/cardy.css"</span> <span class="nt">/&gt;</span>
+<span class="c">&lt;!-- Display card --&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy club"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
 </pre>
 </div>
 
@@ -61,7 +64,10 @@
 <p>You can also display four colors deck.</p>
 
 <div class="highlight">
-<pre><span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy spade four-color"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
+<pre>
+<span class="nt">&lt;link</span> <span class="na">rel=</span><span class="s">"stylesheet"</span> <span class="na">href=</span><span class="s">"css/cardy.css"</span> <span class="nt">/&gt;</span>
+<span class="c">&lt;!-- Display cards --&gt;</span>
+<span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy spade four-color"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy club four-color"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy heart four-color"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>
 <span class="nt">&lt;span</span> <span class="na">class=</span><span class="s">"cardy diamond four-color"</span><span class="nt">&gt;</span>A<span class="nt">&lt;/span&gt;</span>     
@@ -72,10 +78,13 @@
 <h2>Javascript</h2>
 
 <p>You can also display your card with javascript. All you need is to type a simple code.</p>
+<p>You need jQuery loaded before cardy.</p>
 
 <div class="highlight">
 <pre><span class="c">&lt;!-- Display Ace of space and Ace of heart --&gt;</span>
 [As] [Ah]
+<span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>   
+<span class="nt">&lt;script</span> <span class="na">src=</span><span class="s">"js/cardy.js"</span><span class="nt">&gt;</span><span class="nt">&lt;/script&gt;</span>   
 </pre>
 </div>
 
@@ -139,6 +148,13 @@
       <span class="cardy club">Q</span>
       <span class="cardy club">K</span>
       <span class="cardy club">A</span>
+    </div>
+    
+    <div>
+        <span class="cardy spade four-color">A</span>
+        <span class="cardy club four-color">A</span>
+        <span class="cardy heart four-color">A</span>
+        <span class="cardy diamond four-color">A</span>   
     </div>
 
 
